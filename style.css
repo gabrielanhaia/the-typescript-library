@@ -338,6 +338,11 @@ main {
   line-height: 1.4;
 }
 
+.other-cta {
+  text-align: center;
+  margin: 40px 0 0;
+}
+
 /* FOOTER */
 footer {
   background: var(--black-2);
