@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The TypeScript Library — by Gabriel Anhaia</title>
+    <meta
+      name="description"
+      content="A five-book collection on TypeScript by Gabriel Anhaia. Essentials, Type System, Kotlin/Java bridge, PHP bridge, and Production. All examples runnable, type-checked, and verified in CI."
+    />
+    <meta property="og:title" content="The TypeScript Library" />
+    <meta
+      property="og:description"
+      content="A five-book collection on TypeScript by Gabriel Anhaia."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./covers/typescript-essentials.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">A five-book collection</p>
+      <h1>The TypeScript Library</h1>
+      <p class="lede">
+        From confident TypeScript to production-ready services, libraries, and
+        monorepos. Five books by <strong>Gabriel Anhaia</strong>, designed to be
+        read in order or picked individually.
+      </p>
+      <p class="hero-meta">
+        Companion code:
+        <a href="https://github.com/gabrielanhaia/the-typescript-library-examples"
+          >github.com/gabrielanhaia/the-typescript-library-examples</a
+        >
+      </p>
+    </header>
+
+    <section class="cover-row" aria-label="The five books">
+      <a href="#book-1" class="cover-link">
+        <img
+          src="./covers/typescript-essentials.png"
+          alt="Cover of Book 1 — TypeScript Essentials"
+          loading="lazy"
+        />
+        <span>Book 1</span>
+      </a>
+      <a href="#book-2" class="cover-link">
+        <img
+          src="./covers/typescript-type-system.png"
+          alt="Cover of Book 2 — The TypeScript Type System"
+          loading="lazy"
+        />
+        <span>Book 2</span>
+      </a>
+      <a href="#book-3" class="cover-link">
+        <img
+          src="./covers/jvm-to-typescript.png"
+          alt="Cover of Book 3 — Kotlin and Java to TypeScript"
+          loading="lazy"
+        />
+        <span>Book 3</span>
+      </a>
+      <a href="#book-4" class="cover-link">
+        <img
+          src="./covers/php-to-typescript.png"
+          alt="Cover of Book 4 — PHP to TypeScript"
+          loading="lazy"
+        />
+        <span>Book 4</span>
+      </a>
+      <a href="#book-5" class="cover-link">
+        <img
+          src="./covers/typescript-in-production.png"
+          alt="Cover of Book 5 — TypeScript in Production"
+          loading="lazy"
+        />
+        <span>Book 5</span>
+      </a>
+    </section>
+
+    <main>
+      <article id="book-1" class="book">
+        <div class="book-cover">
+          <img
+            src="./covers/typescript-essentials.png"
+            alt="Book 1 cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="book-text">
+          <p class="book-tag">Book 1</p>
+          <h2>TypeScript Essentials</h2>
+          <p class="book-sub">
+            From Working Developer to Confident TS, Across Node, Bun, Deno, and
+            the Browser
+          </p>
+          <p class="book-audience">
+            <strong>Audience:</strong> a working developer in any language
+            crossing into TypeScript. Knows programming; needs the language.
+          </p>
+          <p>
+            Twenty-eight chapters covering the daily-driver TS surface:
+            primitives, narrowing, modules, classes, async, ESLint, Vitest, and
+            the four-runtime daily loop. The entry point of the collection.
+          </p>
+          <p class="book-actions">
+            <a class="btn primary" href="#" rel="external">Buy on Amazon</a>
+            <a
+              class="btn"
+              href="https://github.com/gabrielanhaia/the-typescript-library-examples/tree/main/typescript-essentials"
+              >Companion code</a
+            >
+          </p>
+        </div>
+      </article>
+
+      <article id="book-2" class="book reversed">
+        <div class="book-cover">
+          <img
+            src="./covers/typescript-type-system.png"
+            alt="Book 2 cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="book-text">
+          <p class="book-tag">Book 2</p>
+          <h2>The TypeScript Type System</h2>
+          <p class="book-sub">From Generics to DSL-Level Types</p>
+          <p class="book-audience">
+            <strong>Audience:</strong> a TS user who wants to wield the type
+            system, not decorate code with it.
+          </p>
+          <p>
+            Generics, the <code>satisfies</code> operator, mapped and
+            conditional types, <code>infer</code>, template literal types,
+            recursive and branded types, variance, and the type-driven library
+            patterns behind Zod, tRPC, and Hono RPC. Twenty-five chapters.
+          </p>
+          <p class="book-actions">
+            <a class="btn primary" href="#" rel="external">Buy on Amazon</a>
+            <a
+              class="btn"
+              href="https://github.com/gabrielanhaia/the-typescript-library-examples/tree/main/typescript-type-system"
+              >Companion code</a
+            >
+          </p>
+        </div>
+      </article>
+
+      <article id="book-3" class="book">
+        <div class="book-cover">
+          <img
+            src="./covers/jvm-to-typescript.png"
+            alt="Book 3 cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="book-text">
+          <p class="book-tag">Book 3 — Bridge book</p>
+          <h2>Kotlin and Java to TypeScript</h2>
+          <p class="book-sub">A Bridge for JVM Developers</p>
+          <p class="book-audience">
+            <strong>Audience:</strong> a working JVM developer (Kotlin-led,
+            Java-aware) crossing into TypeScript.
+          </p>
+          <p>
+            Static vs structural typing, generics variance, sealed classes vs
+            discriminated unions, threads vs the event loop, Kotlin coroutines
+            vs <code>async</code>/<code>await</code>, Spring/Ktor vs
+            Hono/NestJS/Fastify. Twenty-seven chapters with a Spring-to-Hono
+            worked port.
+          </p>
+          <p class="book-actions">
+            <a class="btn primary" href="#" rel="external">Buy on Amazon</a>
+            <a
+              class="btn"
+              href="https://github.com/gabrielanhaia/the-typescript-library-examples/tree/main/jvm-to-typescript"
+              >Companion code</a
+            >
+          </p>
+        </div>
+      </article>
+
+      <article id="book-4" class="book reversed">
+        <div class="book-cover">
+          <img
+            src="./covers/php-to-typescript.png"
+            alt="Book 4 cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="book-text">
+          <p class="book-tag">Book 4 — Bridge book</p>
+          <h2>PHP to TypeScript</h2>
+          <p class="book-sub">A Bridge for Modern PHP 8+ Developers</p>
+          <p class="book-audience">
+            <strong>Audience:</strong> a modern PHP 8+ developer (Laravel,
+            Symfony) crossing into TypeScript.
+          </p>
+          <p>
+            PHP 8 typed properties and enums mapped to TS, Eloquent and Doctrine
+            mapped to Drizzle and Prisma, FormRequest mapped to Zod, the
+            synchronous-PHP-to-async-TS paradigm shift, the patterns from common
+            Laravel and Symfony codebases ported into TS. Twenty-seven chapters
+            with a Laravel-to-Hono worked port.
+          </p>
+          <p class="book-actions">
+            <a class="btn primary" href="#" rel="external">Buy on Amazon</a>
+            <a
+              class="btn"
+              href="https://github.com/gabrielanhaia/the-typescript-library-examples/tree/main/php-to-typescript"
+              >Companion code</a
+            >
+          </p>
+        </div>
+      </article>
+
+      <article id="book-5" class="book">
+        <div class="book-cover">
+          <img
+            src="./covers/typescript-in-production.png"
+            alt="Book 5 cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="book-text">
+          <p class="book-tag">Book 5</p>
+          <h2>TypeScript in Production</h2>
+          <p class="book-sub">
+            Tooling, Build, and Library Authoring Across Runtimes
+          </p>
+          <p class="book-audience">
+            <strong>Audience:</strong> a senior TS developer hardening services
+            and libraries. Knows the language; needs production answers.
+          </p>
+          <p>
+            Every <code>tsconfig</code> flag walked, every build tool compared
+            (<code>tsc</code>, esbuild, swc, tsx, tsup, unbuild, tshy, Vite,
+            Rollup), each runtime first-class, monorepo orchestration with
+            project references, library publishing across npm and JSR,
+            type-level testing, type performance in CI, and migration runbooks.
+            Twenty-eight chapters.
+          </p>
+          <p class="book-actions">
+            <a class="btn primary" href="#" rel="external">Buy on Amazon</a>
+            <a
+              class="btn"
+              href="https://github.com/gabrielanhaia/the-typescript-library-examples/tree/main/typescript-in-production"
+              >Companion code</a
+            >
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <section class="reading-paths" aria-label="Reading paths">
+      <h2>Reading paths</h2>
+      <ul>
+        <li>
+          <strong>New to TypeScript:</strong> Book 1 → Book 2 → Book 5.
+        </li>
+        <li>
+          <strong>Working JVM developer:</strong> Book 3 substitutes for Book 1
+          and Book 2; jump to Book 5 for production.
+        </li>
+        <li>
+          <strong>Modern PHP 8+ developer:</strong> Book 4 substitutes for Book
+          1 and Book 2; jump to Book 5 for production.
+        </li>
+        <li>
+          <strong>Already shipping TypeScript:</strong> Book 2 for the type
+          system, Book 5 for production. Skim Book 1.
+        </li>
+      </ul>
+    </section>
+
+    <section class="other-books" aria-label="Also by the author">
+      <h2>Also by Gabriel Anhaia</h2>
+      <p class="section-lede">
+        Pocket guides on AI engineering, distributed systems, and data
+        platforms. Each is short, focused, and decision-oriented.
+      </p>
+      <div class="other-grid">
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/ai-agents-pocket-guide.png"
+            alt="AI Agents Pocket Guide cover"
+            loading="lazy"
+          />
+          <span class="other-title">AI Agents Pocket Guide</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/prompt-engineering-pocket-guide.png"
+            alt="Prompt Engineering Pocket Guide cover"
+            loading="lazy"
+          />
+          <span class="other-title">Prompt Engineering Pocket Guide</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/rag-pocket-guide.png"
+            alt="RAG Pocket Guide cover"
+            loading="lazy"
+          />
+          <span class="other-title">RAG Pocket Guide</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/llm-observability-pocket-guide.png"
+            alt="LLM Observability Pocket Guide cover"
+            loading="lazy"
+          />
+          <span class="other-title">LLM Observability Pocket Guide</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/system-design-fundamentals.png"
+            alt="System Design Pocket Guide: Fundamentals cover"
+            loading="lazy"
+          />
+          <span class="other-title">System Design: Fundamentals</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/system-design-interviews.png"
+            alt="System Design Pocket Guide: Interviews cover"
+            loading="lazy"
+          />
+          <span class="other-title">System Design: Interviews</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/database-playbook.png"
+            alt="Database Playbook cover"
+            loading="lazy"
+          />
+          <span class="other-title">Database Playbook</span>
+        </a>
+        <a class="other-book" href="#" rel="external">
+          <img
+            src="./covers/other-books/event-driven-architecture-pocket-guide.png"
+            alt="Event-Driven Architecture Pocket Guide cover"
+            loading="lazy"
+          />
+          <span class="other-title">Event-Driven Architecture</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © 2026 Gabriel Anhaia &middot;
+        <a href="https://xgabriel.com">xgabriel.com</a> &middot;
+        <a href="https://github.com/gabrielanhaia">GitHub</a> &middot;
+        <a href="https://linkedin.com/in/gabrielanhaia">LinkedIn</a>
+      </p>
+      <p class="footer-fine">
+        Books are independently published. Companion code is MIT-licensed at
+        <a href="https://github.com/gabrielanhaia/the-typescript-library-examples"
+          >the-typescript-library-examples</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
